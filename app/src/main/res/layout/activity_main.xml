@@ -9,8 +9,8 @@
 
     <EditText
         android:id="@+id/message"
-        android:layout_width="311dp"
-        android:layout_height="48dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
         android:hint="Message"
         app:layout_constraintBottom_toTopOf="@+id/channel2Button"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -20,8 +20,8 @@
 
     <EditText
         android:id="@+id/title"
-        android:layout_width="311dp"
-        android:layout_height="48dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
         android:hint="Title"
         app:layout_constraintBottom_toTopOf="@+id/message"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -31,11 +31,10 @@
 
     <Button
         android:id="@+id/channel2Button"
-        android:layout_width="340dp"
-        android:layout_height="65dp"
+        android:layout_width="350dp"
+        android:layout_height="57dp"
         android:text="send on channel 2"
         android:onClick="sendOnChannel2"
-        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -45,12 +44,11 @@
 
     <Button
         android:id="@+id/channel1Button"
-        android:layout_width="340dp"
-        android:layout_height="65dp"
+        android:layout_width="350dp"
+        android:layout_height="57dp"
         android:layout_marginBottom="24dp"
         android:text="send on channel 1"
         android:onClick="sendOnChannel1"
-        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/channel2Button"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintLeft_toLeftOf="parent"
